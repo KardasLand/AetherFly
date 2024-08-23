@@ -1,0 +1,9 @@
+autosave:
+  enabled: true
+  interval: 300
+locale: en
+blacklisted-worlds:
+  enabled: true
+  worlds:
+      - "world_nether"
+      - "world_the_end"

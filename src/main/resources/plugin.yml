@@ -1,0 +1,12 @@
+name: AetherFly
+version: '${project.version}'
+main: com.kardasland.aetherfly.AetherFly
+api-version: '1.20'
+softdepend:
+  - CombatLogX
+commands:
+  tempfly:
+    aliases: [tfly]
+  aetherfly:
+    description: Main command for AetherFly
+    aliases: [afly]

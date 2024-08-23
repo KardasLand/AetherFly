@@ -1,0 +1,34 @@
+prefix: "&7[&6AetherFly&7] &a"
+no_permission: "&cYou do not have permission to use this command."
+aetherfly:
+  player_not_found: "&cPlayer not found."
+  fly_given: "&aFly Type %fly_type% has been given to %player%."
+  fly_removed: "&aFly Type %fly_type% has been removed from %player%."
+  config_reloaded: "&aConfig has been reloaded."
+tempfly:
+  disabled: "&cYour temporary flight has been disabled."
+  enabled: "&aTempFly has been enabled."
+  usage: "&cUsage: /tempfly <on|off|info>"
+  already_enabled: "&cTempFly is already enabled."
+  already_disabled: "&cTempFly is already disabled."
+  already_flying: "&cYou are already flying."
+  dont_have_tempfly: "&cYou don't have TempFly."
+  blocked_world: "&cYou cannot fly in this world."
+  info:
+    title:
+      - "&7&m---------------------"
+      - "&6TempFly Information"
+      - "&7&m---------------------"
+      - "&6Fly Type: &7%fly_type%"
+    types:
+      time_limited:
+        - "Time Limit Expire: &7%expire_date%"
+        - "Remaining Time: &7%remaining_time_formatted%"
+      usage_limited:
+        - "Usage Time: &7%usage_time_formatted%"
+        - "Max Usage Time: &7%max_usage_time_formatted%"
+      subscription:
+        - "Usage Time: &7%usage_time_formatted%"
+        - "Max Usage Time: &7%max_usage_time_formatted%"
+        - "Subscription Expiration: &7%expire_date%"
+        - "Remaining Time: &7%remaining_time_formatted%"
